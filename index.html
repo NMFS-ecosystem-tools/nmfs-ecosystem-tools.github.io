@@ -27,16 +27,46 @@
         </div>
         <div class = "divider"></div>
         <div class ="infoText">
-          Successfully managing and recovering marine species in today’s busy ocean requires us to understand the entire ecosystem and the suite of impacts on their survival, rather than considering just one species at a time. NOAA Fisheries is using sophisticated ecosystem modeling tools, coupled with input from stakeholders, to explore the tradeoffs inherent in natural resource management decisions. The models incorporate classic population biology and a range of climate, environmental, ecological and human impacts to the ocean. These models, which are relied on by our scientists and managers, provide essential data for making well informed decisions. However, the complexity that makes the models robust can also limit the ability of many audiences to understand and use the information provided. The underlying dynamics of these models are complex, and new tools aims to show the results of those dynamics in an easy-to-view manner.
+          Successfully managing and recovering marine species in today’s busy ocean requires us to understand the entire ecosystem and the suite of impacts on their survival, rather than considering just one species at a time. NOAA Fisheries is using sophisticated ecosystem modeling tools, coupled with input from stakeholders, to explore the tradeoffs inherent in natural resource management decisions. The models incorporate classic population biology and a range of climate, environmental, ecological and human impacts to the ocean. These models, which are relied on by our scientists and managers, provide essential data for making well informed decisions. However, the complexity that makes the models robust can also limit the ability of many audiences to understand and use the information provided. The underlying dynamics of these models are complex, and a new tool aims to show the results of those dynamics in an easy-to-view manner.
         </div>
-        <div class="boxcontainer">
-            <div class = "box2">
+
+        <div class="mywrap">
+          <div class="mywrap">
+          <div class ="sidenav">
+
+           <!--  <div class="tabs">
+              <div class="tab">
+                <input type="checkbox" id="chck1">
+                <label class="tab-label" for="chck1">Stock Assesment Models</label>
+                <div class="tab-content">
+                 <input type="button" value="Age structured" onclick="simpleSearch(this.value)">
+                 <input type="button" value="Length structured" onclick="simpleSearch(this.value)">
+                 <input type="button" value="Age length structured" onclick="simpleSearch(this.value)">
+                </div>
+              </div>
+              <div class="tab">
+              <input type="button" value="Advanced estimation engine" onclick="simpleSearch(this.value)">
+            </div>
+              <div class="tab">
+              <input type="button" value="Data simulator" onclick="simpleSearch(this.value)">
+            </div>
+              <div class="tab">
+              <input type="button" value="Input Processor" onclick="simpleSearch(this.value)">
+            </div>
+            </div> -->
+
+
+          <div class = "box2">
+            <input class = "boxInput" type="text" id="myInput" onkeyup="simpleSearch()" placeholder="Search for models" title="Type in a name">
+          </div>
+
+          <div class = "box2">
               <div class ="row"><img id="online" height="25px" width="25px"><h2>Web Application</h2></div>
                 Some tools are available as web based applications.
 
 
 
-              </div>
+            </div>
             <div class = "box2">
               <div class ="row"><img id="down" height="25px" width="25px"><h2> Executable</h2></div>
 
@@ -67,188 +97,193 @@
             </div>
 
 
+          </div>
+          <div class="side_container" onclick="menuClick(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
 
 
-            </div>
+          </div>
+
+
+
         <div class ="boxcontainer">
-          The models below are currently in the onboarding process and will be available soon.
 
-          <!-- <input class = "boxInput" type="text" id="myInput" onkeyup="simpleSearch()" placeholder="Search for models" title="Type in a name"> -->
-        </div>
-        <div class ="boxcontainer">
-
-
+          
           <div class = "box">
-
-
-
+              
+              
+              
               <a class = "shortTitle" href= https://nmfs-ecosystem-tools.github.io/MSVPA_X2 target= "_blank"> MSVPA_X2 </a>
               <div class = "longTitle">MultiSpecies Virtual Population Analysis</div>
               <div class = "modelType"></div>
               <div class = "modelType"></div>
-
+              
 
               <div class = "language"></div>
               <div class = "iconrow">
-
+                
                  <button class = "icon_small" id ="online" disabled></button>
+                
 
-
-
+                
                   <button class = "icon_small" id ="down" disabled></button>
+                
 
-
-
+                
                   <button class = "icon_small" id ="github" disabled></button>
-
+                
 
                <!--   -->
-
+                  
                 <button class = "icon_small" id ="cert" disabled></button>
 
-
+                
 
                   <button class = "icon_small" id ="cert" disabled></button>
                 <!--  -->
-
+                
                  <button class = "icon_small"  id =external_active  ></button>
 
-
+                 
 
               </div>
 
 
           </div>
-
+          
           <div class = "box">
-
-
-
+              
+              
+              
               <a class = "shortTitle" href= https://nmfs-ecosystem-tools.github.io/MSSPM target= "_blank"> MSSPM </a>
               <div class = "longTitle">MultiSpecies Surplus Production Model</div>
               <div class = "modelType"></div>
               <div class = "modelType"></div>
-
+              
 
               <div class = "language"></div>
               <div class = "iconrow">
-
+                
                  <button class = "icon_small" id ="online" disabled></button>
+                
 
-
-
+                
                   <button class = "icon_small" id ="down" disabled></button>
+                
 
-
-
+                
                   <button class = "icon_small" id ="github" disabled></button>
-
+                
 
                <!--   -->
-
+                  
                 <button class = "icon_small" id ="cert" disabled></button>
 
-
+                
 
                   <button class = "icon_small" id ="cert" disabled></button>
                 <!--  -->
-
+                
                  <button class = "icon_small"  id =external_active  ></button>
 
-
+                 
 
               </div>
 
 
           </div>
-
+          
           <div class = "box">
-
-
-
+              
+              
+              
               <a class = "shortTitle" href= https://nmfs-ecosystem-tools.github.io/MSCAA target= "_blank"> MSCAA </a>
               <div class = "longTitle">MultiSpecies Statistical Catch-At-Age</div>
               <div class = "modelType"></div>
               <div class = "modelType"></div>
-
+              
 
               <div class = "language"></div>
               <div class = "iconrow">
-
+                
                  <button class = "icon_small" id ="online" disabled></button>
+                
 
-
-
+                
                   <button class = "icon_small" id ="down" disabled></button>
+                
 
-
-
+                
                   <button class = "icon_small" id ="github" disabled></button>
-
+                
 
                <!--   -->
-
+                  
                 <button class = "icon_small" id ="cert" disabled></button>
 
-
+                
 
                   <button class = "icon_small" id ="cert" disabled></button>
                 <!--  -->
-
+                
                  <button class = "icon_small"  id =external_active  ></button>
 
-
+                 
 
               </div>
 
 
           </div>
-
+          
           <div class = "box">
-
-
-
+              
+              
+              
               <a class = "shortTitle" href= https://www.st.nmfs.noaa.gov/ecosystems/ebfm/ecosystem-modeling target= "_blank"> VES-V </a>
               <div class = "longTitle">Virtual Ecosystem Scenario Viewer</div>
               <div class = "modelType"></div>
               <div class = "modelType"></div>
-
+              
 
               <div class = "language"></div>
               <div class = "iconrow">
-
+                
                  <button class = "icon_small" id ="online" disabled></button>
+                
 
-
-
+                
                  <button class = "icon_small"  id ="down" onclick="location.href='https://www.st.nmfs.noaa.gov/ecosystems/ebfm/ecosystem-modeling';" value="download app" ></button>
+                 
 
-
-
+                
                   <button class = "icon_small" id ="github" disabled></button>
-
+                
 
                <!--   -->
-
+                  
                 <button class = "icon_small" id ="cert" disabled></button>
 
-
+                
 
                   <button class = "icon_small" id ="cert" disabled></button>
                 <!--  -->
-
+                
                  <button class = "icon_small"  id =external_active  ></button>
 
-
+                 
 
               </div>
 
 
           </div>
-
+          
+        </div>
 
 
         </div>
+      </div>
 
 
 
@@ -268,10 +303,21 @@
         <div class ="attribution">Icons by icons8 https://icons8.com/</div>
       </div>
       <script>
-        function simpleSearch() {
+        var sidenav = document.getElementsByClassName("sidenav");
+            // sidenav[0].style.display="none";
+
+        function simpleSearch(val) {
+          console.log(val)
             var input, filter, ul, box, box_each, box_each_abbrev, i, txtValue;
-            input = document.getElementById("myInput");
-            filter = input.value.toUpperCase();
+            if(val === undefined){
+              input = document.getElementById("myInput");
+              filter = input.value.toUpperCase();
+            }
+            else {
+              filter = val.toUpperCase();
+            }
+
+
             box = document.getElementsByClassName("box");
             for (i = 0; i < box.length; i++) {
                 box_each = box[i].getElementsByClassName("longTitle")[0];
@@ -284,6 +330,18 @@
                 }
             }
         }
+
+        function menuClick(x) {
+          x.classList.toggle("change");
+
+          sidenav[0].classList.toggle("open");
+          // boxcontainer
+
+
+
+        }
+
+
       </script>
    </body>
 </html>
